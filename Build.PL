@@ -10,7 +10,7 @@ my $build = Module::Build->new(
 		'Class::DBI'		=> '0.96',
 	},
 	recommends  => {
-		'DBD::mysq'         => 0,
+		'DBD::mysql'        => 0,
 		'DBD::Pg'           => 0,
 		'DBD::SQLite'       => 0,
 	},
