@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 use base qw(Class::Data::Inheritable Class::DBI);
 
@@ -410,7 +410,7 @@ sub post_drop_table { }
 
 =head1 SEE ALSO
 
-L<Class::DBI>, L<DBI>, L<Class::DBI::DDL::mysql>, L<Class::DBI::DDL::Pg>
+L<Class::DBI>, L<DBI>
 
 =head1 AUTHOR
 

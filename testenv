@@ -1,7 +1,0 @@
-export DBI_mysql_DSN="dbi:mysql:test"
-export DBI_mysql_USER="test"
-export DBI_mysql_PASS="test"
-
-export DBI_Pg_DSN="dbi:Pg:dbname=test"
-export DBI_Pg_USER="test"
-export DBI_Pg_PASS="test"
