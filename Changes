@@ -1,0 +1,9 @@
+1.01  Thu Dec 11 2003  Andrew Sterling Hanenkamp <sterling@hanenkamp.com>
+
+	* Initial release version.
+	* Support for PostgreSQL and MySQL tested.
+	* Contains public methods: create_table, drop_table, column_definition,
+	  index_definition.
+	* Includes support for helper packages with methods: pre_create_table,
+	  post_create_table, pre_drop_table, post_drop_table.
+

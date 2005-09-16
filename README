@@ -1,0 +1,20 @@
+Class::DBI::DDL
+===============
+
+This package is an extension to Class::DBI that gives it the ability to create
+or drop the table automatically.
+
+Installation
+------------
+
+It uses the typical Perl build formula with the addition of environment
+variables for the purpose of testing. The settings that I use are in the testenv
+file. The environment variables are DSN_$driver_DSN, DSN_$driver_USER,
+DSN_$driver_PASS. Only DBI_$driver_DSN for each driver is required. Currently,
+there are tests for "Pg" and "mysql".
+
+  . testenv
+  perl Makefile.PL
+  make
+  make test
+  make install
